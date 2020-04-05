@@ -5,7 +5,7 @@ from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.ext import MessageHandler, Filters, RegexHandler
 
 # Importing Custom Functions
-from telegram_functions import welcome, test, unknown
+from telegram_functions import welcome, unknown
 from random_dog import send_dog_photo
 from dictionary import send_definition
 from weather import get_place, send_weather
