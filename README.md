@@ -4,13 +4,13 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
 <!-- ![PrtPrmr_Bot](https://github.com/preetparmar/Telegram-Bot/blob/master/screenshots/test.png) -->
 
 ## Getting Started:
-- Search for `PrtPrmr_Bot` in your **Telegram** mobile/windows/mac app
+- Search for `PrtPrmr_Bot` in your **Telegram App** on your mobile/windows/mac
     - *Please replace `PrtPrmr_Bot` with your bot name if you are planning on replicating the code*
 - Start interacting with the Bot. It's that easy!
 
 ## Some Functionalities:
 **Definition and example of a word**
-- Command: def
+- Command: `def`
 - Usage: **/def** *word*
 - If an example for the word is available then the command returns an example as well
 - Example: 
@@ -18,6 +18,7 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
     - *Definition: of extreme force, degree, or strength<br/>Example: the job demands intense concentration*
 
 **Weather for the given place**
+- Command: `w`
 - For the purpose of this, I have decided to use Dark Sky Weather API.
     - Dark Sky API requires *Latitude* and *Longitude*
     - In order to get the Latitude and Longitude, I am using Google's Geo-Coding API
@@ -38,9 +39,10 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
     - Added a `regex` functionality, so that you can use the command `aw` with any numbers *w* follwing `aw`
 
 **Get a random joke :D**
+- Command: `joke`
 - Usage: **/joke**
-    - Provides a random joke everytime
-    - *Will add functionality to toggle `NSFW` feature*
+- Provides a random joke everytime
+- *Will add functionality to toggle `NSFW` feature*
 
 **Handling Unknown Commands**
 - If a command is given which is currently not available, then you will get a reply *Invalid Command*
