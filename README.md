@@ -80,4 +80,5 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
 ## Some additional detials:
 - You can get a list of all the commands if you type `/`
 
+---
 If you have any suggestions or just want to chat, feel free to reach me preetparmar@outlook.com
