@@ -30,6 +30,21 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
     - */w boston*
     - *Currently the temperature is 8°C<br/>Summary: Mostly cloudy throughout the day.<br/>Today it will vary from 8°C to 15°C*
 
+**Get a random cocktail recipe**
+- Command: `cocktail`
+- Usage: **/cocktail**
+- Example:
+    - */cocktail*
+    - *Name: Harvey Wallbanger*<br/>Category: Ordinary Drink<br/>Type: Alcoholic<br/><br/>Ingredients:<br/>Vodka : 1 oz<br/>Galliano : 1/2 oz<br/>Orange juice : 4 oz<br/><br/>Instructions: Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve.
+
+Ingredients:
+Vodka : 1 oz 
+Galliano : 1/2 oz 
+Orange juice : 4 oz 
+
+Instructions: Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve.
+
+
 **Get a random meme**
 - Usage: **/ha** | **/haha** | **/hahaha**
     - Added a `regex` functionality to the command so you can use `ha` as a command as many times
