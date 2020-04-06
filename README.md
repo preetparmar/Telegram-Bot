@@ -35,7 +35,7 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
 - Usage: **/cocktail**
 - Example:
     - */cocktail*
-    - *Name: Harvey Wallbanger*<br/>Category: Ordinary Drink<br/>Type: Alcoholic<br/><br/>Ingredients:<br/>Vodka : 1 oz<br/>Galliano : 1/2 oz<br/>Orange juice : 4 oz<br/><br/>Instructions: Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve.
+    - *Name: Harvey Wallbanger<br/>Category: Ordinary Drink<br/>Type: Alcoholic<br/>Ingredients:<br/>Vodka : 1 oz<br/>Galliano : 1/2 oz<br/>Orange juice : 4 oz<br/>Instructions: Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve.*
 
 **Get a random meme**
 - Usage: **/ha** | **/haha** | **/hahaha**
