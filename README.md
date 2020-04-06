@@ -33,9 +33,14 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
 - Usage: **/ha** | **/haha** | **/hahaha**
     - Added a `regex` functionality to the command so you can use `ha` as a command as many times
 
-**Get a random cute dog photo**
+**Get a random cute dog photo! <3 Aww!!!**
 - Usage: **/aw** | **/aww** | **/awww**
     - Added a `regex` functionality, so that you can use the command `aw` with any numbers *w* follwing `aw`
+
+**Get a random joke :D**
+- Usage: **/joke**
+    - Provides a random joke everytime
+    - *Will add functionality to toggle `NSFW` feature*
 
 **Handling Unknown Commands**
 - If a command is given which is currently not available, then you will get a reply *Invalid Command*
