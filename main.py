@@ -10,6 +10,7 @@ from random_dog import send_dog_photo
 from dictionary import send_definition
 from weather import get_place, send_weather
 from meme import haha
+from joke import send_joke
 
 def add_handlers(dp):
     dp.add_handler(handler=CommandHandler(command='start', callback=welcome))
@@ -18,6 +19,7 @@ def add_handlers(dp):
     dp.add_handler(handler=CommandHandler(command='w', callback=get_place))
     dp.add_handler(handler=CallbackQueryHandler(callback=send_weather))
     dp.add_handler(handler=MessageHandler(filters=Filters.command & Filters.regex('[ha]+'), callback=haha))
+    dp.add_handler(handler=CommandHandler(command='joke', callback=send_joke))
     dp.add_handler(handler=MessageHandler(filters=Filters.command, callback=unknown))
 
 def main():
