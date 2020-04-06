@@ -25,5 +25,4 @@ def get_definition(term: str) -> str:
 
 def send_definition(update, context):
     text = get_definition(update.message.text[4:])
-    print(text)
     context.bot.send_message(chat_id=update.effective_chat.id, text=text)

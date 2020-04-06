@@ -5,13 +5,13 @@ from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.ext import MessageHandler, Filters, RegexHandler
 
 # Importing Custom Functions
-from telegram_functions import welcome, unknown
-from random_dog import send_dog_photo
-from dictionary import send_definition
-from weather import get_place, send_weather
-from meme import haha
-from joke import send_joke
-from bartender import get_random_cocktail
+from resources.telegram_functions import welcome, unknown
+from resources.random_dog import send_dog_photo
+from resources.dictionary import send_definition
+from resources.weather import get_place, send_weather
+from resources.meme import haha
+from resources.joke import send_joke
+from resources.bartender import get_random_cocktail
 
 def add_handlers(dp):
     dp.add_handler(handler=CommandHandler(command='start', callback=welcome))
