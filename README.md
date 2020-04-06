@@ -32,17 +32,20 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
 
 **Get a random cocktail recipe**
 - Command: `cocktail`
-- Usage: **/cocktail**
 - Provides the Ingredients, Measures, Instructions along with an image. 
+- Usage: **/cocktail**
 - Example:
     - */cocktail*
     - *Name: Harvey Wallbanger<br/>Category: Ordinary Drink<br/>Type: Alcoholic<br/>Ingredients:<br/>Vodka : 1 oz<br/>Galliano : 1/2 oz<br/>Orange juice : 4 oz<br/>Instructions: Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve.*
 
 **Get a random meme**
-- Usage: **/ha** | **/haha** | **/hahaha**
-    - Added a `regex` functionality to the command so you can use `ha` as a command as many times
+- Command: `haha`
+- Provides a random meme
+- Usage: **/haha**
 
 **Get a random cute dog photo! <3 Aww!!!**
+- Command: `aww`
+- Provides a random dog photo
 - Usage: **/aw** | **/aww** | **/awww**
     - Added a `regex` functionality, so that you can use the command `aw` with any numbers *w* follwing `aw`
 
