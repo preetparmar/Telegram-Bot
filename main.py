@@ -11,7 +11,7 @@ from resources.dictionary import send_definition
 from resources.weather import get_place, send_weather
 from resources.meme import haha
 from resources.joke import send_joke
-from resources.bartender import get_random_cocktail
+from resources.bartender import get_cocktail, get_ingredient, search_cocktail
 
 def add_handlers(dp):
     dp.add_handler(handler=CommandHandler(command='start', callback=welcome))
@@ -21,7 +21,9 @@ def add_handlers(dp):
     dp.add_handler(handler=CallbackQueryHandler(callback=send_weather))
     dp.add_handler(handler=CommandHandler(command='haha', callback=haha))
     dp.add_handler(handler=CommandHandler(command='joke', callback=send_joke))
-    dp.add_handler(handler=CommandHandler(command='cocktail', callback=get_random_cocktail))
+    dp.add_handler(handler=CommandHandler(command='cocktail', callback=get_cocktail))
+    dp.add_handler(handler=CommandHandler(command='cocktail_ing', callback=get_ingredient))
+    dp.add_handler(handler=CommandHandler(command='cocktail_search', callback=search_cocktail))
     dp.add_handler(handler=MessageHandler(filters=Filters.command, callback=unknown))
 
 

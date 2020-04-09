@@ -73,9 +73,8 @@ I have created my own Telegram Bot using a [python wrapper](https://github.com/p
     - [meme api](https://meme-api.herokuapp.com/) - *Open Source*
     - [dog api](https://dog.ceo/dog-api/) - *Open Source*
 
-<!-- ## Some functions in the Pipeline:
-- Get real time location for MBTA Boston.
-- Store interaction and user data into database -->
+## Some functions in the Pipeline:
+- Run this script on Raspberry Pi for continuos operation or use any other service.
 
 ## Some additional detials:
 - You can get a list of all the commands if you type `/`
