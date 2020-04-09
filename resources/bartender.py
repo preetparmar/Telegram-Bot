@@ -2,18 +2,14 @@ import requests
 
 def get_cocktail(update, context):
     name = update.message.text[11:]
-    print(name)
-    if name is None:
+    if name == '':
         URL = 'https://www.thecocktaildb.com/api/json/v1/1/random.php'
-        print(URL)
     else:
         URL = f'https://www.thecocktaildb.com/api/json/v1/1/search.php?s={name}'
-        print(URL)
 
     data = requests.get(URL).json()['drinks']
     
     if data:
-        print(data[0])
         cocktail, drink_image = get_cocktail_details(URL, data[0])
         context.bot.send_message(chat_id=update.effective_chat.id, text=cocktail)
         context.bot.send_photo(chat_id=update.effective_chat.id, photo=drink_image)
@@ -28,7 +24,6 @@ def get_ingredient(update, context):
         ingredient_name = data[0]['strIngredient']
         ingredient_desc = data[0]['strDescription']
         ingredient_details = f'Name: {ingredient_name}\nDescription: {ingredient_desc}'
-        print(ingredient_details)
         context.bot.send_message(chat_id=update.effective_chat.id, text=ingredient_details)
     else:
         context.bot.send_message(chat_id=update.effective_chat.id, text='No such ingredient found')
